@@ -10,7 +10,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 8080
-      targetPort: 8080
+      targetPort: 8070
   selector:
     name: server-pod-userservice
     app: cluster-1
