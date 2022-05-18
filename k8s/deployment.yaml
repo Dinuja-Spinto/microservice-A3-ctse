@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: server-pod-userservice
-      image: pinto97/user_service
+      image: pinto97/cluster-1
       ports:
-        - containerPort: 8080
+        - containerPort: 8070
