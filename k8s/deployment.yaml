@@ -11,4 +11,4 @@ spec:
     - name: server-pod-userservice
       image: pinto97/cluster-1
       ports:
-        - containerPort: 8070
+        - containerPort: 8080
